@@ -30,6 +30,8 @@ public class FizzBuzzGameIntegrationTest {
 
 
         FizzBuzzGame game = new FizzBuzzGame();
+        int[] arr = {3,5,7};
+        game.setThreeSpecialNumber(arr);
         game.start(100);
         List<String> results = game.getResults();
         assertThat(results, equalTo(expectedResults));

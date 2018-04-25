@@ -49,7 +49,7 @@ public class FizzBuzzGame {
      * @param count
      */
     public void start(int count) {
-        for (int i = 1; i < count; i++) {
+        for (int i = 1; i <= count; i++) {
             String result="";
             if(containsSpecialNum1(i)){
                 result+="Fizz";
